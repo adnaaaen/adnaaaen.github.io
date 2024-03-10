@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 7vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#header-id{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(223, 222, 222, 0.679);
+}
+.header-container .pages-div a{
+    margin-left: 30px;
+}
+.header-container a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(12, 1, 44);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#logo-img{
+    border-radius: 10px;
+}
+
+.all-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.all-page div{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.land-page{
+    height: 93vh;
+    /* background: linear-gradient(to left, rgba(49, 71, 136, 0.6), rgba(31, 31, 79, 0.416)), url("/img/land-page.jpg"); */
+    background: linear-gradient(to left, rgba(49, 71, 136, 0.6), rgba(31, 31, 79, 0.416)), url("/img/img-20.jpg");
+    background-repeat: no-repeat;
+    filter: brightness(.6);
+    /* filter: opacity(1px); */
+    /* filter: blur(10px); */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.land-page h1{
+    font-size: 100px;
+    color: white;
+    margin: 0;
+    letter-spacing: 50px;
+}
+.land-page p{
+    font-size: 10px;
+    margin: 0;
+    margin-top: -5px;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+}
+.home-page, .about-page, .contact-page{
+    height: 100vh;
+}
+.about-page img{
+    width: 90%;
+}
