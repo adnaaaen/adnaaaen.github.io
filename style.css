@@ -37,16 +37,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .land-page{
     height: 93vh;
-    /* background: linear-gradient(to left, rgba(49, 71, 136, 0.6), rgba(31, 31, 79, 0.416)), url("/img/land-page.jpg"); */
-    background: linear-gradient(to left, rgba(49, 71, 136, 0.6), rgba(31, 31, 79, 0.416)), url("/img/img-20.jpg");
+    /* background: linear-gradient(to left, rgba(8, 12, 26, 0.5), rgba(6, 6, 21, 0.5)), url("/img/img-20.jpg"); */
+    background: linear-gradient(to left, rgba(8, 12, 26, 0.5), rgba(6, 6, 21, 0.5)), url("/img/nice-img.jpg");
     background-repeat: no-repeat;
-    filter: brightness(.6);
-    /* filter: opacity(1px); */
-    /* filter: blur(10px); */
     background-position: center;
     background-attachment: fixed;
     background-size: cover ;
@@ -57,7 +54,7 @@ body{
 }
 .land-page h1{
     font-size: 100px;
-    color: rgb(232, 232, 232);
+    color: rgb(255, 251, 251);
     margin: 0;
     letter-spacing: 50px;
     /* -webkit-text-stroke: .3px rgb(1, 5, 24); */
@@ -75,9 +72,11 @@ body{
 }
 
 #img-11{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/img-33.jpg);
+    /* background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/img-33.jpg); */
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/Rolex.jpg);
 }
 #img-5{
+    /* background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-44.jpg); */
     background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-44.jpg);
 }
 #img-7{
@@ -103,11 +102,12 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.493);
 }
 
 .rows h1{
     border: none;
-    color: rgba(255, 255, 255, 0.332);
+    color: rgba(255, 255, 255, 0);
     font-size: 40px;
     /* -webkit-text-stroke: .5px rgb(255, 255, 255); */
 }
@@ -126,7 +126,7 @@ body{
     height: 97vh;
     padding-top: 8vh;
     border-bottom: 1px solid black;
-    background: linear-gradient(to right, rgba(87, 87, 87, 0.224), rgba(69, 69, 69, 0.321)), url('/img/nice-img.jpg');
+    background: linear-gradient(to right, rgba(35, 34, 34, 0.700), rgba(69, 69, 69, 0.706)), url('/img/land-page.jpg');
     background-attachment: fixed;
     background-size: cover;
     /* filter: opacity(50); */
