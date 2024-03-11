@@ -81,7 +81,58 @@ body{
 }
 .home-page, .about-page, .contact-page{
     height: 100vh;
+    border: 1px solid black;
 }
 .about-page img{
     width: 90%;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(19, 18, 18, 0.232), rgba(255, 255, 255, 0.173));
+}
+.home-page img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.first-img, .second-img, .third-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.323);
+    
+}
+#img-11{
+    height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.5)), url(/img/img-11.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+#img-5{
+    height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.234)), url(/img/img-5.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+#img-7{
+    height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.23)), url(/img/img-7.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    
+}
+.text-3{
+    border: none;
 }
