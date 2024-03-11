@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.697), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
     height: 7vh;
     padding-left: 10px;
     padding-right: 10px;
@@ -42,7 +42,7 @@ body{
 .land-page{
     height: 93vh;
     /* background: linear-gradient(to left, rgba(8, 12, 26, 0.5), rgba(6, 6, 21, 0.5)), url("/img/img-20.jpg"); */
-    background: linear-gradient(to left, rgba(8, 12, 26, 0.5), rgba(6, 6, 21, 0.5)), url("/img/nice-img.jpg");
+    background: linear-gradient(to left, rgba(8, 12, 26, 0.7), rgba(6, 6, 21, 0.7)), url("/img/nice-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -72,11 +72,9 @@ body{
 }
 
 #img-11{
-    /* background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/img-33.jpg); */
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/Rolex.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/date-just.jpg);
 }
 #img-5{
-    /* background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-44.jpg); */
     background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-44.jpg);
 }
 #img-7{
@@ -102,14 +100,13 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.493);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.493); */
 }
 
 .rows h1{
     border: none;
     color: rgba(255, 255, 255, 0);
     font-size: 40px;
-    /* -webkit-text-stroke: .5px rgb(255, 255, 255); */
 }
 .rows h1:hover{
     color: white;
