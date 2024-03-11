@@ -33,16 +33,10 @@ body{
 
 .all-page .land-page,.about-page, .contact-page{
     width: 100%;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
 }
 .land-page{
     height: 93vh;
-    /* background: linear-gradient(to left, rgba(8, 12, 26, 0.5), rgba(6, 6, 21, 0.5)), url("/img/img-20.jpg"); */
-    background: linear-gradient(to left, rgba(8, 12, 26, 0.7), rgba(6, 6, 21, 0.7)), url("/img/nice-img.jpg");
+    background: linear-gradient(to left, rgba(8, 12, 26, 0.7), rgba(6, 6, 21, 0.7)), url("/img/land-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -75,19 +69,19 @@ body{
     background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.2)), url(/img/date-just.jpg);
 }
 #img-5{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-44.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/sea-dwel.jpg);
 }
 #img-7{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-55.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/gmt.jpg);
 }
 #img-1{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-ice.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/deep-sea.jpg);
 }
 #img-19{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-rock.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/day-date.jpg);
 }
 #img-8{
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/img-sea.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/img/sub-img.jpg);
 }
 #img-11, #img-5, #img-7, #img-1, #img-19, #img-8{
     height: 300px;
@@ -123,7 +117,7 @@ body{
     height: 97vh;
     padding-top: 8vh;
     border-bottom: 1px solid black;
-    background: linear-gradient(to right, rgba(35, 34, 34, 0.700), rgba(69, 69, 69, 0.706)), url('/img/land-page.jpg');
+    background: linear-gradient(to right, rgba(35, 34, 34, 0.700), rgba(69, 69, 69, 0.706)), url('/img/home-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     /* filter: opacity(50); */
@@ -131,4 +125,31 @@ body{
 }
 .img-1, .img-2{
     border-radius: 10px;
+}
+
+.contact-page{
+    height: 70vh;
+    background: linear-gradient(to left, rgba(8, 12, 26, 0.839), rgba(6, 6, 21, 0.839)), url("/img/home-bg.jpg");
+    /* background: linear-gradient(to right, rgba(35, 34, 34, 0.700), rgba(69, 69, 69, 0.706)), url('/img/home-bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    /* padding: 20px; */
+}
+.heading{
+    width: 50%;
+}
+.form-cont{
+    width: 40%;
+    border: 1px solid white;
+}
+.each-entry input{
+    margin-bottom: 10px;
+    width: 98%;
+    height: 50px;
 }
