@@ -146,10 +146,41 @@ body{
 }
 .form-cont{
     width: 40%;
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
 }
 .each-entry input{
-    margin-bottom: 10px;
-    width: 98%;
-    height: 50px;
+    width: 93%;
+    height: 30px;
+}
+.each-entry input, textarea{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.131), rgba(255, 255, 255, 0.131));
+    color: white;
+    font-weight: 500px;
+}
+#send-btn{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer span{
+    color: rgb(2, 2, 40);
+    font-weight: bold;
+}
+footer{
+    text-align: center;
 }
