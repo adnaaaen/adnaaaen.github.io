@@ -9,36 +9,34 @@
     <ul id="itemList"></ul>
 
     <script>
-        // Initialize an empty array to store the elements
         let itemsArray = [];
 
         function addElement() {
-            // Get the value from the text input
+      
             var inputValue = document.getElementById('textInput').value;
 
-            // Check if the input is not empty
+    
             if(inputValue.trim() !== '') {
-                // Add the input value to the array
+ 
                 itemsArray.push(inputValue);
 
-                // Call function to update the displayed list
+       
                 updateList();
             } else {
                 alert("Please enter something.");
             }
 
-            // Clear the input box after adding
+       
             document.getElementById('textInput').value = '';
         }
 
         function updateList() {
-            // Get the ul element by its ID
+   
             var list = document.getElementById('itemList');
 
-            // Clear the current list (to avoid duplicate entries)
             list.innerHTML = '';
 
-            // Loop through the array and add each element as a li to the ul
+            
             itemsArray.forEach(function(item) {
                 var li = document.createElement('li');
                 li.textContent = item;
